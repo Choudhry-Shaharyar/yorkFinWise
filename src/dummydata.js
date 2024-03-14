@@ -404,21 +404,21 @@ export const blog = [
 export const testimonal = [
   {
     id: 1,
-    name: "STUDENT A",
+    name: "Harsh Kumar",
     post: "BENG MECHANICAL",
     desc: "The information very easy to grasp and I understood basic concepts.",
     cover: "./images/testo/person-1.jpg",
   },
   {
     id: 2,
-    name: "STUDENT B",
+    name: "Sanya Brown",
     post: "BCOMM MARKETING",
     desc: "The interactive videos were the cherry on top! I took advantage of the workshop calendarwith RBC and got to learn more!",
     cover: "./images/testo/person-2.jpeg",
   },
   {
     id: 3,
-    name: "STUDENT C",
+    name: "Rosa Martinez",
     post: "BSC KINESIOLOGY",
     desc: "I really got to learn more about the amazing support groups York has to offer.",
     cover: "./images/testo/person-3.jpeg",

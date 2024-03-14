@@ -44,4 +44,57 @@
   color: #fff;
 }
 
+#text {
+  padding: 0 1rem;
+}
+#text h1{
+  font-size: 25px;
+  margin: 20px 0;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: rgb(134, 134, 134);
+  margin-top: 0;
+}
+
+#testt:before {
+  color: red;
+  font-size: 40px;
+}
+
+
+#text2 p{
+margin: 0;
+}
+.jobsList{
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-radius: 2px;
+  
+  }
+  .jobtitle h2{
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .jobList p{
+    margin:2px
+  }
+
+  .slick-list {margin: 0 -30px;}
+.slick-slide>div {padding: 0 30px;}
+
+.jobsList h2 {
+  font-size: 60px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.jobsList h3 {
+  /* font-size: 12px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: sans-serif; */
+}
 /*--------------faq-------------*/

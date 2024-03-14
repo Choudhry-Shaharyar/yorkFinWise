@@ -112,6 +112,26 @@
 .online .box:hover h1 {
   color: #fff;
 }
+#text {
+  padding: 0 1rem;
+}
+#text h1{
+  font-size: 25px;
+  margin: 20px 0;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: rgb(134, 134, 134);
+  margin-top: 0;
+}
+.space{
+  padding: 40px;
+}
+.space2{
+  padding: 40px;
+}
+.content flex {
+  margin-top: auto;
+}
 /*-------------online---------*/
 @media screen and (max-width: 768px) {
 }
