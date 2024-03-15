@@ -18,11 +18,11 @@ const Pricing = () => {
         <Jobs />
         <div className="space">
         </div>
-        <div className='container grid'>
+        {/* <div className='container grid'>
           <PriceCard />
-        </div>
+        </div> */}
       </section>
-      <Faq />
+      {/* <Faq /> */}
     </>
   )
 }
