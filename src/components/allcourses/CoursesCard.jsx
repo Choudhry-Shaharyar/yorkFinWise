@@ -46,7 +46,7 @@ Learning financial literacy will enable you to better understand your lifestyle 
 
         <div className='content flex'>
           <div id='left'>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/WeRq1nBsCQw?si=55RYb_KPPI93zoxp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </div>
+          <iframe src="https://eclasss.h5p.com/content/1292219079630194728/embed" aria-label="It All Adds Up to Making Cents: Paying Yourself First" width="560" height="410" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://eclasss.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script></div>
           <div id='text'>
           <h1>Part 4: Pay Yourself First</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
@@ -56,7 +56,7 @@ Learning financial literacy will enable you to better understand your lifestyle 
 
         <div className='content flex'>
           <div id='left'>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/M8MYyC3cZqg?si=UWi4jfDfBVzvPRv9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </div>
+          <iframe src="https://eclasss.h5p.com/content/1292219122451723448/embed" aria-label="It All Adds Up to Making Cents: How to Budget" width="560" height="410" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://eclasss.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script></div>
           <div id='text'>
           <h1>Part 5: How to Budget</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
