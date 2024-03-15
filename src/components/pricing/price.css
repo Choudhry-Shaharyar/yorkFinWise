@@ -60,7 +60,10 @@
   color: red;
   font-size: 40px;
 }
-
+a {
+  color: #810001;
+  text-decoration: none;
+}
 
 #text2 p{
 margin: 0;
