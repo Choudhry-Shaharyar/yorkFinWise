@@ -404,17 +404,17 @@ export const blog = [
 export const testimonal = [
   {
     id: 1,
-    name: "Harsh Kumar",
+    name: "Ajaypal Athwal",
     post: "BENG MECHANICAL",
-    desc: "The information very easy to grasp and I understood basic concepts.",
+    desc: "YorkU Finwise is a great all in one resource hub. Has easy access to on campus jobs!",
     cover: "./images/testo/person-1.jpg",
   },
   {
     id: 2,
-    name: "Sanya Brown",
-    post: "BCOMM MARKETING",
-    desc: "The interactive videos were the cherry on top! I took advantage of the workshop calendarwith RBC and got to learn more!",
-    cover: "./images/testo/person-2.jpeg",
+    name: "Aadi Gautam",
+    post: "BENG COMPUTER",
+    desc: "The learning videos were helpful! I took advantage of the workshop calendar with RBC and got to learn more!",
+    cover: "./images/testo/person-2.jpg",
   },
   {
     id: 3,
