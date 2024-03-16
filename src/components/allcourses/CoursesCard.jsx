@@ -51,6 +51,7 @@ const CoursesCard = () => {
   return (
     <>
      <div className="container">
+     <div className="space2"></div>
       <div className="space">
         <h3>        Financial Literacy Series
     </h3>
@@ -61,20 +62,20 @@ Learning financial literacy will enable you to better understand your lifestyle 
       </div>
         <div className='content flex'>
           <div className='left'>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/53QIU5RHPWQ?si=hjT83c0uTgU2kO1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </div>
+          <iframe src="https://eclasss.h5p.com/content/1292220585480380158/embed" aria-label="It All Adds Up to Making Cents: Understanding Income" width="560" height="410" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://eclasss.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script></div>
           <div id='text'>
           <h1>Part 1: Understanding Income</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+          <p>Learn the different ways you can make money and what they mean as you start looking for jobs and building your career. This video highlights the concept of understanding incomes via formal and informal work. While emphasizing the differences between having a regular and irregular income. It is important to understand their differences and similarities to find the best fitting options for you. </p>
           </div>
         </div>
            <div className="space2"></div>
 
         <div className='content flex'>
           <div id='left'>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/U9PDjDeZODE?si=ueJbq0rnTfZ3CloL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </div>
+          <iframe src="https://eclasss.h5p.com/content/1292220589934900958/embed" aria-label="It All Adds Up to Making Cents: Spending Money" width="560" height="410" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://eclasss.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script></div>
           <div id='text'>
           <h1>Part 2: Spending Money</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+          <p>The video emphasizes the significance of saving money, acknowledging that while the concept is commonly known, the practice can be challenging. It outlines practical steps for effective saving: understanding personal spending, budgeting to track income and outgoings, utilizing tools like online banking or manual receipt tracking, discerning between essentials and non-essentials, and implementing small, everyday actions to cut costs. Motivation is reinforced by keeping savings goals visible and meaningful, such as for desired purchases like shoes or a phone.</p>
           </div>
         </div>
         <div className="space2"></div>
@@ -94,20 +95,23 @@ Learning financial literacy will enable you to better understand your lifestyle 
           <iframe src="https://eclasss.h5p.com/content/1292219079630194728/embed" aria-label="It All Adds Up to Making Cents: Paying Yourself First" width="560" height="410" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://eclasss.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script></div>
           <div id='text'>
           <h1>Part 4: Pay Yourself First</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+          <p>This video highlights different methods to save money that newcomers to Canada can implement when managing their finances. The two main methods the video suggests is: Pay Yourself First and use S.E.T Goals. The video mentions how usually individuals tend to spend their money on goods they wish to purchase and then save the rest into their bank account. However, it is suggested that one should first take a specific amount of money and immediately deposit it into a savings account. This ensures that as a newcomer one has money saved if ever needed and for larger purchases. The video also goes to describe S.E.T goals as See It, Explain It, and, Time It to help save.</p>
           </div>
         </div>
         <div className="space2"></div>
+        
 
         <div className='content flex'>
           <div id='left'>
           <iframe src="https://eclasss.h5p.com/content/1292219122451723448/embed" aria-label="It All Adds Up to Making Cents: How to Budget" width="560" height="410" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://eclasss.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script></div>
           <div id='text'>
           <h1>Part 5: How to Budget</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+          <p>This video presents tips on how to budget as a newcomer to Canada. The video goes to explain how a budget balances your incomes (the money coming into your account) and expenses (the money going out of your account). It also goes into describing the step by step process on how to create a budget and how to determine which categories are your expenses and which are part of one’s income. Examples are also provided to help the viewer better understand financial calculations in a budgeting context.</p>
           </div>
         </div>
         <div className="space"></div>
+        <h3>Financial Literacy Workshops at RBC on Campus</h3>
+        <p>Workshops that are available on campus offered by the friendly staff! Workshops maybe held online or in-person. Click on the events avaliable in the calendar below to register.      </p>
         <Eventcalendar
         clickToCreate={false}
         dragToCreate={false}
@@ -125,53 +129,7 @@ Learning financial literacy will enable you to better understand your lifestyle 
     <div className="space2"></div>
     
 
-      {/* <section className='coursesCard'>
-        <div className='container grid2'>
-          {coursesCard.map((val) => (
-            <div className='items'>
-              <div className='content flex'>
-                <div className='left'>
-                  <div className='img'>
-                    <img src={val.cover} alt='' />
-                  </div>
-                </div>
-                <div className='text'>
-                  <h1>{val.coursesName}</h1>
-                  <div className='rate'>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <label htmlFor=''>(5.0)</label>
-                  </div>
-                  <div className='details'>
-                    {val.courTeacher.map((details) => (
-                      <>
-                        <div className='box'>
-                          <div className='dimg'>
-                            <img src={details.dcover} alt='' />
-                          </div>
-                          <div className='para'>
-                            <h4>{details.name}</h4>
-                          </div>
-                        </div>
-                        <span>{details.totalTime}</span>
-                      </>
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <div className='price'>
-                <h3>
-                  {val.priceAll} / {val.pricePer}
-                </h3>
-              </div>
-              <button className='outline-btn'>ENROLL NOW !</button>
-            </div>
-          ))}
-        </div>
-      </section> */}
+      {}
     </>
   )
 }
