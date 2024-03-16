@@ -13,7 +13,7 @@ const CoursesCard = () => {
   const [myEvents, setEvents] = useState([
     {
       id: 'event-1', // Use a unique ID for the event
-      title: 'Getting and Building Good Student Credit',
+      title: 'Building Good Student Credit',
       start: new Date('2024-03-26T00:00:00'), // set to start of the day
     end: new Date('2024-03-1926T23:59:59'), // set to end of the day
     },
@@ -53,8 +53,8 @@ const CoursesCard = () => {
      <div className="container">
      <div className="space2"></div>
       <div className="space">
-        <h3>        Financial Literacy Series
-    </h3>
+        <h1>Financial Literacy Series
+    </h1>
         <p>
 Learning financial literacy will enable you to better understand your lifestyle and set you up for success. It can really change your life forever. Take a look at our five part series to make sense of your money. Take a look at this series to make sense of your money.
         </p>
@@ -110,8 +110,9 @@ Learning financial literacy will enable you to better understand your lifestyle 
           </div>
         </div>
         <div className="space"></div>
-        <h3>Financial Literacy Workshops at RBC on Campus</h3>
+        <h1>Financial Literacy Workshops at RBC on Campus</h1>
         <p>Workshops that are available on campus offered by the friendly staff! Workshops maybe held online or in-person. Click on the events avaliable in the calendar below to register.      </p>
+        <div className="space"></div>
         <Eventcalendar
         clickToCreate={false}
         dragToCreate={false}
