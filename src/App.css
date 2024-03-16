@@ -86,7 +86,7 @@ p {
 }
 
 .back {
-  background-image: url("../public/images/back.webp");
+  background-image: url("../public/images/about.webp");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -134,7 +134,7 @@ p {
   text-transform: uppercase;
 }
 .backtwo {
-  background-image: url("../public/images/backY.webp");
+  background-image: url("../public/images/broll.gif");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
