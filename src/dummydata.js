@@ -4,30 +4,35 @@ export const homeAbout = [
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
     title: "Interactive Videos and Workshops",
     desc: "Far far away, behind the word mountains, there lies a way to learn that just feels right.",
+    page: "/learn",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Information Upfront",
     desc: "No link forwarding! All basic information available in front of you. Feels like magic doesnt it?",
+    page: "/information",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/teacher.png",
     title: "RBC On Campus and more",
     desc: "Connect with a star advisor a RBC On Campus or other banks available on campus.",
+    page: "/learn",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/network.png",
     title: "Student and York Services",
     desc: "Wide range of support by student groups and financial services offered by York University.",
+    page: "/learn",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/money.png",
     title: "Ways to earn and save money",
     desc: "From scholarships and bursaries to finding work on campus. Also find cool tips to save money!",
+    page: "/learn",
   },
 ]
 export const awrapper = [

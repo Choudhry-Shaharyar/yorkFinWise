@@ -3,6 +3,7 @@ import Heading from "../common/heading/Heading"
 import "./about.css"
 import { homeAbout } from "../../dummydata"
 import Awrapper from "./Awrapper"
+import { Link } from "react-router-dom"
 
 const AboutCard = () => {
   return (
@@ -17,6 +18,7 @@ const AboutCard = () => {
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
+                  <Link to={val.page}>
                   <div className='item flexSB'>
                     <div className='img'>
                       <img src={val.cover} alt='' />
@@ -26,6 +28,8 @@ const AboutCard = () => {
                       <p>{val.desc}</p>
                     </div>
                   </div>
+                  </Link>
+
                 )
               })}
             </div>
