@@ -8,6 +8,8 @@ import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import JobsPage from "./components/Jobs/JobsPage"
+
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/learn' component={CourseHome} />
           <Route exact path='/information' component={Pricing} />
-          <Route exact path='/pricing' component={Pricing} />
+          <Route exact path='/job' component={JobsPage} />
           <Route exact path='/banking' component={Blog} />
           <Route exact path='/contact' component={Contact} />
         </Switch>

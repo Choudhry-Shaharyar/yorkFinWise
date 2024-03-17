@@ -20,11 +20,10 @@ const Header = () => {
             </li>
             <li>
               <Link to='/information'>Being a Lion</Link>
-            </li>
+            </li> 
             <li>
-              <Link to='/team'>Team</Link>
+              <Link to='/job'>Jobs</Link>
             </li>
-          
             <li>
               <Link to='/banking'>Campus Banking</Link>
             </li>
