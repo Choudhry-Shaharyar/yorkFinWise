@@ -13,6 +13,7 @@
   color: #000;
 }
 .price p {
+  padding-left: 10px;
   color: grey;
   margin: 40px 0;
 }
