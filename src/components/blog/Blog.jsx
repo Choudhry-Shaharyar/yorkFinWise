@@ -1,12 +1,13 @@
 import React from "react"
-import Back from "../common/back/Back"
+import Backfour from "../common/back/Backfour"
+
 import BlogCard from "./BlogCard"
 import "./blog.css"
 
 const Blog = () => {
   return (
     <>
-      <Back title='Blog Posts' />
+    <Backfour title='On-Campus Banking' />
       <section className='blog padding'>
         <div className='container grid2'>
           <BlogCard />
