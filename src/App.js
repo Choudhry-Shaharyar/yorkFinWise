@@ -16,11 +16,10 @@ function App() {
         <Header />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
           <Route exact path='/learn' component={CourseHome} />
           <Route exact path='/information' component={Pricing} />
           <Route exact path='/pricing' component={Pricing} />
-          <Route exact path='/journal' component={Blog} />
+          <Route exact path='/banking' component={Blog} />
           <Route exact path='/contact' component={Contact} />
         </Switch>
         <Footer />
