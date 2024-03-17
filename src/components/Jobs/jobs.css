@@ -7,6 +7,7 @@
     margin: 20px 0;
     color: #000000;
   }
+  
   .price h1 span {
     font-size: 20px;
     margin-right: 5px;
@@ -76,14 +77,17 @@
     border-radius: 2px;
     
     }
-    .jobtitle h2{
-      text-align: center;
-      padding-bottom: 2rem;
+    .jobtitle h1{
+        font-size: 50px;
+        margin: 20px 0;
+        color: #000000;
     }
     .jobList p{
       margin:2px
     }
-  
+    .jobText {
+        color: black;
+    }
     .slick-list {margin: 0 -30px;}
   .slick-slide>div {padding: 0 30px;}
   

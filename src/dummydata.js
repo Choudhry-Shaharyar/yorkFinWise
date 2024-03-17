@@ -18,21 +18,21 @@ export const homeAbout = [
     cover: "https://img.icons8.com/ios/80/000000/teacher.png",
     title: "RBC On Campus and more",
     desc: "Connect with a star advisor a RBC On Campus or other banks available on campus.",
-    page: "/learn",
-  },
-  {
-    id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/network.png",
-    title: "Student and York Services",
-    desc: "Wide range of support by student groups and financial services offered by York University.",
-    page: "/learn",
+    page: "/banking",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/money.png",
     title: "Ways to earn and save money",
     desc: "From scholarships and bursaries to finding work on campus. Also find cool tips to save money!",
-    page: "/learn",
+    page: "/earn",
+  },
+  {
+    id: 1,
+    cover: "https://img.icons8.com/ios/80/000000/network.png",
+    title: "Student and York Services",
+    desc: "Wide range of support by student groups and financial services offered by York University.",
+    page: "/earn",
   },
 ]
 export const awrapper = [
