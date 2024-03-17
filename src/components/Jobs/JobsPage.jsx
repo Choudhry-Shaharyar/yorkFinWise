@@ -5,7 +5,7 @@ import Backthree from "../common/back/Backthree"
 const JobsPage = () => {
   return (
     <>
-      <Backthree title='Welcome to York University' />
+      <Backthree title='Jobs and Scholarships' />
       <Jobs />
     </>
   )
