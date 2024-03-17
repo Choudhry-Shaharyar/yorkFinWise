@@ -62,13 +62,8 @@
     font-size: 40px;
   }
   a {
-    color: grey;
-    text-decoration: none;
-  }
-
-  a h3 {
     color: #810001;
- 
+    text-decoration: none;
   }
   
   #text2 p{
