@@ -233,13 +233,51 @@ const Jobs = () => {
         <div className="jobtitle">
           <h1>Tips</h1>
         </div>
+      <div className="tips-container">
+        <div className="tips">
+      <h2>Saving Money as a York University Student</h2>
+      <div className="tip">
+        <h3>Budegt Calculator:</h3>
+        <p>
+         Use the RBC Student Budget Calculator* to help you figure out how much money you'll need to get through the school year. When you don't have an exact amount to work with, estimate on the high side. You can always go back and rework the figures later. Access the RBC Student Budget Calculator <a href="https://www.rbcroyalbank.com/student/budget-calculator/">here</a>.
+        </p>
+      </div>
+      <div className="tip">
+        <h3>Food Savings:</h3>
+        <p>
+  Explore the benefits of York University Mobile Ordering: Begin placing orders and earn 10 points for every dollar you spend! This user-friendly app not only simplifies your food orders but also aids in saving money on every purchase. Additionally, keep an eye on time-sensitive specials in our dining halls by following <a href="https://www.instagram.com/yorkufood/">@yorkufood</a> on Instagram! Learn more about the rewards program <a href="https://www.yorku.ca/foodservices/mobileapp/#rewards">here</a>.
+</p>
+
+      </div>
+      <div className="tip">
+        <h3>Textbook Savings:</h3>
+        <p>Textbook Guaranteed Buyback is another fantastic way to save with York University Bookstore. Here's how it works: Check our Guaranteed Buyback List or the shelf tag for your new or used textbooks for the Fall/Winter semester. Keep studying hard and delve into those books. Then, bring your book(s) in good condition, and we will guarantee to pay you back the exact amount! Learn more about our Guaranteed Buyback program <a href="https://www.bookstore.yorku.ca/buyback.asp">here</a>.
+</p>
+      </div>
+      <div className="tip">
+        <h3>Grocery Savings:</h3>
+        <p>Students can find affordable groceries at the nearby Walmart, offering a wide range of products at competitive prices. Shopping on student discount days at local supermarkets, joining food co-ops, and participating in bulk buying groups can further reduce grocery expenses. Additionally, consider checking out <a href="https://regenesis.eco/en/yumarket">Yumarket</a> for more options.</p>
+      </div>
+      <div className="tip">
+        <h3>Transportation Savings:</h3>
+        <p>Save money on transportation by utilizing public transportation or considering biking or walking to campus. Take advantage of student discounts such as the PRESTO on GO, which offers up to 40%* off fares. For more information, visit <a href="https://www.gotransit.com/en/student-savings/post-secondary-discount" target="_blank" rel="noopener noreferrer">GO Transit - Post-Secondary Discount</a>.</p>
+      </div>
+      <div className="tip">
+        <h3>YFS Entertainment Savings:</h3>
+        <p>Explore the YFS Online Discounts page for exclusive deals and codes that help you save money on various products and services. From tech gadgets to clothing and food delivery, you'll find a wide range of offers tailored to student needs. Don't miss out on these savings!
+ For additional discounts and online codes, check out <a href="https://www.yfs.ca/online-discounts">YFS Online Discounts</a>.</p>
+      </div>
+    </div>
+      <div className="money"></div>
+    </div>
+    </div>
+
 
         <div className="space"></div>
 
         
 
 
-      </div>
 
 
     </>

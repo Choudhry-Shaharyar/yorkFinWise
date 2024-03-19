@@ -423,9 +423,9 @@ export const testimonal = [
   },
   {
     id: 3,
-    name: "Rosa Martinez",
+    name: "Tehreem Q",
     post: "BSC KINESIOLOGY",
     desc: "I really got to learn more about the amazing support groups York has to offer.",
-    cover: "./images/testo/person-3.jpeg",
+    cover: "./images/testo/testimonal4.jpg",
   },
 ]

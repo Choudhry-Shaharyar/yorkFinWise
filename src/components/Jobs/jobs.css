@@ -237,3 +237,38 @@
   .space3{
     padding: 25px;
   }
+  .tips-container {
+    display: flex;
+  }
+  
+  .tips {
+    flex: 1;
+    /* Your existing styling for the tips container */
+  }
+  .tip {
+    margin-bottom: 20px;
+  }
+  .money {
+    flex: 1;
+    background-image: url("saving_money3.jpg"); /* Path to your image */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    /* Additional styling for the image container */
+  }
+  .tips h2 {
+    padding-bottom: 30px;
+  }
+  .tip h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .tip p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
