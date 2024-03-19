@@ -107,7 +107,7 @@ const Blog = () => {
           <p>Depending on the credit card you choose, you can also earn points toward travel or merchandise with every dollar you spend. For instance, certain RBC Royal Bank credit cards offer the discerning traveller a range of rewarding choices, from unrestricted travel dates to selecting from a variety of airlines, including Air Canada. In addition, many cards provide money-saving partner discounts and special savings at a host of the country's best retailers. <a href="https://www.avionrewards.com/index.html" target="_blank">Learn about Avion Points here!</a></p>
           <h3>Worldwide acceptance</h3>
           <p>Your credit card can make travelling hassle-free. RBC credit card is accepted across Canada and worldwide which means that you'll never have to worry about having a ready supply of foreign currency on hand.</p>
-
+          <h1>Ilona's RBC Student Credit Card Recommendations</h1>
         </div>
 
         <div className="recCard">
