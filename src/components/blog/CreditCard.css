@@ -1,0 +1,132 @@
+/* .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 100px; }
+  
+  .creditCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+  }
+  
+  .creditCard:hover {
+    transform: translateY(-10px) scale(1.0); 
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2); 
+  }
+  .cardImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .creditCard h2 {
+    color: #333;
+  }
+  
+  .highlights {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .features {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .fees {
+    margin-top: 10px;
+  }
+  
+  .fees div {
+    margin-bottom: 5px;
+  }
+   */
+   .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 100px;
+  }
+  
+  .creditCard {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; /* RBC cards are typically white */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    color: #005eb8; /* RBC's blue color for text */
+  }
+  
+  
+  .creditCard:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 6px 12px 0 #ffc72c;
+  }
+  
+  .creditCard h2 {
+    color: #005eb8; /* RBC's blue color for headings */
+  }
+
+  .creditCard h2 a {
+    color: #005eb8; /* RBC's blue color for headings */
+  }
+  
+  .highlights {
+    font-weight: bold;
+    color: #005eb8; /* RBC's blue color for the 'Most Popular' badge */
+  }
+  
+  .features {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features li {
+    border-bottom: 1px solid #eee; /* Light border for each feature for better readability */
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .fees {
+    margin-top: 10px;
+  }
+  
+  .fees div {
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  .most-popular-badge {
+    font-weight: bold;
+    color: #004a93; /* Darker RBC Blue for text */
+    background-color: #ffc72c; /* RBC Yellow for the badge background */
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px; /* Rounded corners */
+    position: absolute;
+    top: 10px; /* Position it at the top of the card */
+    right: 10px; /* Position it at the right of the card */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); /* Adding some depth with shadow */
+    z-index: 2; /* Ensure it sits above other elements */
+  }
+  
+  
+  
