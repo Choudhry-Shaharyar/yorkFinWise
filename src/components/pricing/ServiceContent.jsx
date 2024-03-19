@@ -28,15 +28,8 @@ const ServiceContent = () => {
   };
   return (
     <>
+      <div className="servicecontent">
       <div className="container">
-        {/* <div className='content flex'>
-          <div className='left'>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/53QIU5RHPWQ?si=hjT83c0uTgU2kO1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </div>
-          <div id='text'>
-          <h1>Part 1: Understanding Income</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-          </div>
-        </div> */}
         <h1>Financial Planning for International Students</h1>
         <p>
           Understanding the financial aspect of studying abroad is crucial for international students. This includes preparing for the general cost of life in Canada, which encompasses:
@@ -99,6 +92,8 @@ const ServiceContent = () => {
           {/* https://yorkinternational.yorku.ca/new-students/online-info-sessions/ */}
         </div>
       </div>
+      </div>
+      
 
     </>
   )

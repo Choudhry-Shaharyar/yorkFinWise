@@ -1,9 +1,104 @@
 import React from "react"
 import "./jobs.css"
+import ScholarshipsTable from "./ScholarshipsTable";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const Jobs = () => {
+  const scholarships = [
+    { 
+      title: "President’s International Scholarship of Excellence", 
+      link: "https://sfs.yorku.ca/scholarships/award-search?awardID=4849", 
+      description: "Twenty (20) of these scholarships are awarded per year, valued at $45,000/year. It is renewable for an additional three years of full-time undergraduate study if the student maintains good academic standing each year, bringing it to a total of $180,000 over four years.",
+      amount: "$180,000 ($45,000 x 4 years)"
+    },
+    { 
+      title: "Tentanda Via Award", 
+      link: "https://sfs.yorku.ca/scholarships/award-search?awardID=4881", 
+      description: "Fifteen (15) of these awards are awarded per year, valued at $30,000/year. It is renewable for an additional three years of full-time undergraduate study if the student maintains good academic standing each year, bringing it to a total of $120,000 over four years.",
+      amount: "$120,000 ($30,000 x 4 years)"
+    },
+    { 
+      title: "Global Leader of Tomorrow Award for International Students", 
+      link: "https://sfs.yorku.ca/scholarships/award-search?awardID=0966", 
+      description: "Two (2) of these scholarships are awarded per year, valued at $20,000/year. It is renewable for an additional three years of full-time undergraduate study if the student maintains high academic standing each year, bringing it to a total of $80,000 over four years.",
+      amount: "$80,000 ($20,000 x 4 years)"
+    },
+    { 
+      title: "International Circle of Scholar’s Scholarship", 
+      link: "https://sfs.yorku.ca/scholarships/award-search?awardID=0977", 
+      description: "One (1) of these scholarships is awarded per year, valued at $15,000. It is for $15,000 towards a student’s first year of study.",
+      amount: "$15,000"
+    },
+    { 
+      title: "York University Academic Excellence Scholarships for International Students", 
+      link: "https://sfs.yorku.ca/scholarships/award-search?awardID=3797", 
+      description: "Five (5) to 10 of these scholarships are awarded per year, valued at $5,000 to $10,000. It is for $5,000 to $10,000 towards a student’s first year of study.",
+      amount: "$5,000-10,000"
+    },
+    { 
+      title: 'Liberal Arts & Professional Studies International Undergraduate Leadership Scholarships', 
+      link: 'https://www.yorku.ca/laps/students/international/awards/', 
+      description: '($10,000 x 4 years)\nFor Liberal Arts & Professional Studies applicants and requires an application.\nApplication Deadline: TBD\nSubmit the Liberal Arts & Professional Studies International Students Scholarship application.', 
+      amount: '$40,000' 
+    },
+    { 
+      title: 'Liberal Arts & Professional Studies International Student Entrance Scholarship', 
+      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=3861', 
+      description: 'For Liberal Arts & Professional Studies applicants\nNo award application required', 
+      amount: '$2,000' 
+    },
+    { 
+      title: 'Faculty of Health International Student Entrance Scholarship of Excellence', 
+      link: 'https://sfs.yorku.ca/scholarships/award-search?awardID=5121', 
+      description: 'For Faculty of Health applicants\nNo award application required', 
+      amount: '$2,000' 
+    },
+    { 
+      title: 'Glendon International Excellence Scholarship', 
+      link: 'https://sfs.yorku.ca/scholarships/award-search?awardID=4887', 
+      description: 'For Glendon applicants and requires an application.\nApplication Deadline: February 15\nSubmit the Glendon International Students Scholarship application package.', 
+      amount: '$40,000\n($10,000 x 4 years)' 
+    },
+    { 
+      title: 'Glendon International Scholarship', 
+      link: 'https://sfs.yorku.ca/scholarships/award-search?awardID=4537', 
+      description: 'For Glendon applicants and requires an application.\nApplication Deadline: February 15\nSubmit the Glendon International Students Scholarship application package.', 
+      amount: '$5,000-$10,000' 
+    },
+    { 
+      title: 'Faculty of Science Entrance Scholarship', 
+      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=3941', 
+      description: 'For Faculty of Science applicants\nNo award application required', 
+      amount: '$2,000' 
+    },
+    { 
+      title: 'York Science Scholars Award', 
+      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=4429', 
+      description: 'For Faculty of Science applicants and requires an application\n$5,000 as an entrance scholarship + $5,000 as a guaranteed summer research position following the first year of study\nApplication Deadline: TBD\nFor more information - York Science Scholars Award (YSSA)', 
+      amount: '$10,000' 
+    },
+    { 
+      title: 'The Annie Demirjian’77 Scholarship', 
+      link: 'https://sfs.yorku.ca/scholarships/award-search?awardID=4566', 
+      description: 'For Glendon applicants and requires an application.\nApplication Deadline: February 15\nSubmit the Glendon International Students Scholarship application package.', 
+      amount: '$5,000-10,000' 
+    },
+    { 
+      title: 'York University Talent Entrance Scholarships', 
+      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=0066', 
+      description: 'For applicants to programs in the School of the Arts, Media, Performance & Design (AMPD)\nNo award application required', 
+      amount: '$1,000' 
+    },
+    { 
+      title: 'Lassonde Entrance Scholarships', 
+      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=3940', 
+      description: 'For Lassonde school of Engineering applicants\nNo award application required', 
+      amount: '$2,000' 
+    }
+  ];
+  
+
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -119,7 +214,19 @@ const Jobs = () => {
 
         <div className="jobtitle">
           <h1>Scholarships</h1>
+          <p>
+          York University offers a variety of scholarships and awards that recognize academic excellence, resilience and community leadership. Some financial awards require that you submit an application for consideration, while other entrance awards are automatically assessed and awarded at the time of your admission.
+          </p>
         </div>
+        <div className="space3"></div>
+
+        <div>
+         < ScholarshipsTable scholarships={scholarships} />
+        </div>
+
+       
+  
+
 
         <div className="space"></div>
 
@@ -128,6 +235,8 @@ const Jobs = () => {
         </div>
 
         <div className="space"></div>
+
+        
 
 
       </div>

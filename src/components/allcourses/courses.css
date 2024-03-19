@@ -129,8 +129,16 @@
 .space2{
   padding: 40px;
 }
+.space4{
+  padding: 20px;
+}
 .content flex {
   margin-top: auto;
+}
+#titleVideo {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #000000;
 }
 /*-------------online---------*/
 @media screen and (max-width: 768px) {

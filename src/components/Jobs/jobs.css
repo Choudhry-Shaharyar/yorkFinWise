@@ -59,7 +59,7 @@
   }
   
   #testt:before {
-    color: red;
+    color: #810001;
     font-size: 40px;
   }
   a {
@@ -73,10 +73,10 @@
   .jobsList{
     padding: 20px;
     background-color: rgb(255, 255, 255);
-    border: solid;
+    border: 1px solid #dddddd;
     border-radius: 2px;
-    
-    }
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
     .jobtitle h1{
         font-size: 50px;
         margin: 20px 0;
@@ -89,7 +89,7 @@
         color: black;
     }
     .slick-list {margin: 0 -30px;}
-  .slick-slide>div {padding: 0 30px;}
+  .slick-slide>div {padding: 6px 30px;}
   
   .jobsList h2 {
     font-size: 60px;
@@ -106,4 +106,134 @@
     font-family: sans-serif; */
   }
   /*--------------faq-------------*/
+  /* table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
   
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  tbody a {
+    color: #810001;
+    text-decoration: none;
+  }
+  
+  tbody a:hover {
+    text-decoration: underline;
+  } */
+/*
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #000000; 
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+  
+  tr:hover {
+    background-color: #e6e6e6; 
+  }
+  
+  tbody a {
+    color: #d21034; 
+    text-decoration: none;
+  }
+  
+  tbody a:hover {
+    text-decoration: underline;
+  }
+  */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevents shadow from being clipped */
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 12px; /* Increased padding for better spacing */
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Make headers bold */
+    text-align: left; /* Align text to the left */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight box-shadow on hover */
+  }
+  
+  tbody a {
+    color: #810001;
+    text-decoration: none;
+  }
+  
+  tbody a:hover {
+    text-decoration: underline;
+  }
+  tr:hover {
+    /* background-color: #f2f2f2; */
+    transform: background-color(#f2f2f2); /* Add a slight scale effect on hover */
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
+  }
+
+  .pagination button{
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #810001;
+    font-weight: 600;
+    border: none;
+    margin: 5px 10px 0 0;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: -2px 5px 2px 0px rgb(0 0 0 / 9%);
+    transition: 0.5s;
+  }
+
+  .pagination button:hover {
+    background-color: #810001;
+    color: #fff;
+  }
+  .pagination button.current-page {
+    background-color: #810001;
+    color: #fff;
+  }
+  .space3{
+    padding: 25px;
+  }
