@@ -7,15 +7,26 @@
   padding: 40px 30px;
 }
 .blog h1 {
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 25px;
   line-height: 30px;
-  margin: 20px 0;
-  transition: 0.5s;
+  margin: 10px 0;
+  color:black;
+  text-align: left;
+  /* transition: 0.5s; */
+}
+.blog h2{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 10px 0;
+  color:black;
+  text-align: left;
 }
 .blog h1:hover {
-  color: #810001;
-  cursor: pointer;
+  /* color: #810001; */
+  /* cursor: pointer; */
+  
 }
 .blog span {
   text-transform: uppercase;
@@ -35,17 +46,159 @@
 }
 
 .blogBackground { 
-  /* background-image: url("../public/images/campus.png"); */
-  background-size: cover;
-  background-attachment: fixed;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100vh;
-  padding-top: 30%;
-  padding-right: 50px;
+  background-image: url("campus.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: auto; 
   color: #fff;
   text-align: center;
 }
+
+.ilonaPicture {
+  background-image: url("ilona.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px; 
+  width: 200px;
+  color: #fff;
+  }
+
+.rbcBranch {
+  background-image: url("rbc.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px; 
+  width: auto;
+  color: #fff;
+  text-align: center;
+}
+
+.rbc-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1.1fr;
+  grid-gap: 75px;
+  row-gap: 25px;
+  /* max-width: 100%; */
+  margin: 0 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .rbc-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.bmo-container {
+  background-image: url("BMO-Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px; 
+  width: auto;
+  color: #fff;
+  text-align: center;
+
+}
+
+.bmoBranch{
+  background-image: url("bmo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px; 
+  width: auto;
+  color: #fff;
+  text-align: center;
+
+}
+.bmo-container {
+  display: grid;
+  grid-template-columns: 1fr .6fr ;
+  grid-gap: 75px;
+  row-gap: 25px;
+  /* max-width: 100%; */
+  margin: 0 70px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .bmo-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.meet-expert {
+  background-color: #fff; /* or any other color that matches your theme */
+  padding: 20px;
+  margin: 20px 0; /* Adjust margin as needed */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* subtle shadow for depth */
+}
+
+.meet-expert h2 {
+  color: #000; /* Color for the heading */
+  margin-bottom: 15px;
+}
+
+.meet-expert p {
+  color: #666; /* Color for the paragraph */
+  margin-bottom: 20px;
+}
+
+.book-appointment-btn {
+  background-color: #d3232a; /* Button background color */
+  color: white; /* Button text color */
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* Adjust for rounded corners */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+  display: inline-block; /* Needed to apply padding and margin */
+}
+
+.book-appointment-btn:hover {
+  background-color: #bb1f28; /* Darker shade on hover */
+}
+
+.alterna-container {
+  background-image: url("logoAlterna.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px; 
+  width: auto;
+  color: #fff;
+  text-align: center;
+
+}
+
+.alternaBranch{
+  background-image: url("alterna.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px; 
+  width: auto;
+  color: #fff;
+  text-align: center;
+
+}
+.alterna-container {
+  display: grid;
+  grid-template-columns: 1fr .6fr ;
+  grid-gap: 75px;
+  row-gap: 25px;
+  /* max-width: 100%; */
+  margin: 0 70px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .alterna-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.spotlight-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 75px;
+  row-gap: 25px;
+  /* max-width: 100%; */
+  margin: 0 70px;
+}
+
