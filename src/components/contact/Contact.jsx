@@ -44,7 +44,7 @@ const Contact = () => {
             </form>
 
             <h3>Follow us here</h3>
-            <a href ="https://www.instagram.com/yorkfinwise/">INSTAGRAM</a>
+            <a href ="https://www.instagram.com/yorkfinwise/" target="_blank">INSTAGRAM</a>
           </div>
         </div>
       </section>

@@ -30,7 +30,7 @@ const ScholarshipsTable = ({ scholarships }) => {
           {scholarships.slice(startIndex, endIndex + 1).map((scholarship, index) => (
             <tr key={startIndex + index}>
               <td>
-                <p><strong><a href={scholarship.link} title={scholarship.title}>{scholarship.title}</a></strong>&nbsp;<br />
+                <p><strong><a href={scholarship.link} target="_blank" title={scholarship.title}>{scholarship.title}</a></strong>&nbsp;<br />
                 {scholarship.description}</p>
               </td>
               <td>{scholarship.amount}</td>
