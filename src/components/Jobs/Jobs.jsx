@@ -237,9 +237,9 @@ const Jobs = () => {
           <div className="tips">
             <h2>Saving Money as a York University Student</h2>
             <div className="tip">
-              <h3>Budegt Calculator:</h3>
+              <h3>RBC's Student Budget Calculator:</h3>
               <p>
-                Use the RBC Student Budget Calculator* to help you figure out how much money you'll need to get through the school year. When you don't have an exact amount to work with, estimate on the high side. You can always go back and rework the figures later. Access the RBC Student Budget Calculator <a href="https://www.rbcroyalbank.com/student/budget-calculator/">here</a>.
+                Use the RBC Student Budget Calculator to help you figure out how much money you'll need to get through the school year. When you don't have an exact amount to work with, estimate on the high side. You can always go back and rework the figures later. Access the RBC Student Budget Calculator <a href="https://www.rbcroyalbank.com/student/budget-calculator/">here</a>.
               </p>
             </div>
             <div className="tip">
