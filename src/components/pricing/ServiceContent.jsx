@@ -1,14 +1,17 @@
 import React from "react"
 import "./price.css"
+import Presentation  from "../../resourcesPDF/Presentation.pdf"
+import Presentation2  from "../../resourcesPDF/Be-Aware-of-Scams.pdf"
+import Presentation3  from "../../resourcesPDF/Financial-Resource-Guide.pdf"
+import Presentation4  from "../../resourcesPDF/Living-in-Canada-What-to-Expect.pdf"
+import Presentation5  from "../../resourcesPDF/Off-Campus-Housing-Resources.pdf"
+import Presentation6  from "../../resourcesPDF/Tips-for-Renting-in-Ontario.pdf"
+
+
+
 const ServiceContent = () => {
   const buttonStyle = {
-    background: 'red',
-    color: 'white',
-    padding: '10px 20px',
-    margin: '0 10px',
-    border: 'none',
-    cursor: 'pointer',
-    textDecoration: 'none',
+
   };
 
   const containerStyle = {
@@ -18,13 +21,6 @@ const ServiceContent = () => {
     marginTop: '20px',
   };
   const onButtonClick = () => {
-    const pdfUrl = "./presentation.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "presentation-slides.pdf"; // specify the filename
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
   };
   return (
     <>
@@ -48,16 +44,17 @@ const ServiceContent = () => {
               {/* <a href="./files/presentation-slides.pdf"  donwload="presentation-slides">Presentation Slides</a>
             <a href="/path-to-resource/financial-resource-guide.pdf" target="_blank" style={buttonStyle}>Financial Resource Guide</a>
             <a href="/path-to-resource/be-aware-of-scams.pdf" target="_blank" style={buttonStyle}>Be Aware of Scams</a> */}
-
-              <button onClick={onButtonClick} style={buttonStyle}>
+              <a href={Presentation} id="buttonStyle" target="_blank">
                 Presentation Slides
-              </button>
-              <button onClick={onButtonClick} style={buttonStyle}>
+              </a>
+              <a href={Presentation3} id="buttonStyle" target="_blank">
                 Financial Resource Guide
-              </button>
-              <button onClick={onButtonClick} style={buttonStyle}>
+              </a>
+              <a href={Presentation2} id="buttonStyle" target="_blank">
                 Scam Prevention
-              </button>
+              </a>
+    
+
             </div>
           </div>
         </div>
@@ -79,16 +76,17 @@ const ServiceContent = () => {
               {/* <a href="./files/presentation-slides.pdf"  donwload="presentation-slides">Presentation Slides</a>
             <a href="/path-to-resource/financial-resource-guide.pdf" target="_blank" style={buttonStyle}>Financial Resource Guide</a>
             <a href="/path-to-resource/be-aware-of-scams.pdf" target="_blank" style={buttonStyle}>Be Aware of Scams</a> */}
-
-              <button onClick={onButtonClick} style={buttonStyle}>
+              <a href={Presentation6} id="buttonStyle" target="_blank">
                 Renting Tips
-              </button>
-              <button onClick={onButtonClick} style={buttonStyle}>
-                Off-Campus Housing
-              </button>
-              <button onClick={onButtonClick} style={buttonStyle}>
-                Living in Canada - What to Expect
-              </button>
+              </a>
+              <a href={Presentation5} id="buttonStyle" target="_blank">
+              Off-Campus Housing
+              </a>
+              <a href={Presentation4} id="buttonStyle" target="_blank">
+              Living in Canada - What to Expect
+              </a>
+              
+             
             </div>
           </div>
           {/* https://yorkinternational.yorku.ca/new-students/online-info-sessions/ */}
