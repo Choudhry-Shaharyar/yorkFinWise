@@ -52,7 +52,6 @@ const CoursesCard = () => {
     <>
       <div className="container">
         <div className="space4"></div>
-        <div className="space4"></div>
 
         <h1 id='titleVideo'>Financial Literacy Series
         </h1>
