@@ -10,7 +10,7 @@ export const homeAbout = [
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Information Upfront",
-    desc: "No link forwarding! All basic information available in front of you. Feels like magic doesnt it?",
+    desc: "Minimal link forwarding! All basic information available in front of you. Feels like magic doesnt it?",
     page: "/information",
   },
   {
