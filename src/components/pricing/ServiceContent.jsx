@@ -30,6 +30,8 @@ const ServiceContent = () => {
     <>
       <div className="servicecontent">
       <div className="container">
+      <div className="space4"></div>
+
         <h1>Financial Planning for International Students</h1>
         <p>
           Understanding the financial aspect of studying abroad is crucial for international students. This includes preparing for the general cost of life in Canada, which encompasses:

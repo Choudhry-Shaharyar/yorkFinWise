@@ -9,7 +9,7 @@ const Pricing = () => {
   return (
     <>
       <Backtwo title='Welcome to York University' />
-      <section className='price padding'>
+      <section className='pricepadding'>
 
         <ServicesContent />
         <div className="space">
