@@ -237,25 +237,50 @@
   .space3{
     padding: 25px;
   }
-  .tips-container {
+  /* .tips-container {
     display: flex;
   }
-  
   .tips {
     flex: 1;
-    /* Your existing styling for the tips container */
   }
   .tip {
     margin-bottom: 20px;
   }
   .money {
     flex: 1;
-    background-image: url("saving_money3.jpg"); /* Path to your image */
+    background-image: url("saving_money3.jpg"); 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    
-    /* Additional styling for the image container */
+  } */
+  .tips-container {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the start of the flex container */
+    gap: 20px; /* This creates a gap between the tips and the money image */
+    overflow: auto;
+
+  }
+  .tips {
+    flex: 2; /* Assigns flex-grow to tips, making it take more space than the image */
+    padding: 20px; /* Adds padding around the tips content */
+    overflow: auto;
+
+  }
+  .money {
+    display:flex;
+    /*height: 800px;
+    width: 300px; */
+    background-image: url("saving_money3.jpg");
+    /*background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 20px; 
+    margin-top: 0px; */
+    max-width: 100%;
+    height: auto;
+  }
+  .tip {
+    margin-bottom: 20px; /* Keeps the original margin for spacing between tips */
   }
   .tips h2 {
     padding-bottom: 30px;
