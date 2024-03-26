@@ -31,7 +31,7 @@ const Blog = () => {
         'Annual Fee rebated every month for students with eligible accounts.'
       ],
       fees: [
-        { label: 'Annual Fee', value: '$482' },
+        { label: 'Annual Fee', value: '$48' },
         { label: 'Purchase Rate', value: '20.99%' },
         { label: 'Additional Card', value: '$0' },
         { label: 'Cash Advance Rate', value: '22.99%' }

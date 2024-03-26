@@ -56,7 +56,7 @@ const CoursesCard = () => {
         <h1 id='titleVideo'>Financial Literacy Series
         </h1>
         <p>
-          Learning financial literacy will enable you to better understand your lifestyle and set you up for success. It can really change your life forever. Take a look at our five part series to make sense of your money. Take a look at this series to make sense of your money.
+          Learning financial literacy will enable you to better understand your lifestyle and set you up for success. It can really change your life forever. Take a look at our five part series to make sense of your money.
         </p>
         <div className="space">
         </div>

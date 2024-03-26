@@ -28,9 +28,6 @@ const Header = () => {
               <Link to='/earn'>Earn & Save</Link>
             </li>
             <li>
-              <Link to='/'>Services</Link>
-            </li> 
-            <li>
               <Link to='/contact'>Contact</Link>
             </li>
           </ul>

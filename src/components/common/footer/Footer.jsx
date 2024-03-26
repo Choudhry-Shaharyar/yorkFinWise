@@ -51,13 +51,8 @@ const Footer = () => {
                 4700 Keele Street, Toronto, ON Canada, M3J1P3
               </li>
               <li>
-                <i className='fa fa-phone-alt'></i>
-                (416) 736-2100
-              </li>
-              <li>
                 <i className='fa fa-paper-plane'></i>
-                info@finwise.com
-              </li>
+                yorkfinwise@gmail.com</li>
             </ul>
           </div>
 
