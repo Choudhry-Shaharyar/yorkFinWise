@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5bad62ee.css",
+    "main.js": "/static/js/main.d138a8e9.js",
+    "static/media/broll.gif": "/static/media/broll.824b0f8e4664e8724895.gif",
+    "static/media/saving_money3.jpg": "/static/media/saving_money3.8eb41bc6954bb463dede.jpg",
+    "static/media/Living-in-Canada-What-to-Expect.pdf": "/static/media/Living-in-Canada-What-to-Expect.d07a19e5404d57bc3691.pdf",
+    "static/media/Presentation.pdf": "/static/media/Presentation.21fad01335c037d78a52.pdf",
+    "static/media/bg-1.jpg": "/static/media/bg-1.883d5f64375f9a7fe600.jpg",
+    "static/media/Off-Campus-Housing-Resources.pdf": "/static/media/Off-Campus-Housing-Resources.e988d7f6e2ad6ef0760d.pdf",
+    "static/media/back-3.jpg": "/static/media/back-3.63a138c32f60023c716a.jpg",
+    "static/media/back-1.jpg": "/static/media/back-1.ecc3e752d043ce736c2d.jpg",
+    "static/media/jobs_background.jpg": "/static/media/jobs_background.7385d42ad4c5373c8ff4.jpg",
+    "static/media/Financial-Resource-Guide.pdf": "/static/media/Financial-Resource-Guide.5d1220987f30eeb7c155.pdf",
+    "static/media/awrapper-1.png": "/static/media/awrapper-1.63012698e814824b6ed5.png",
+    "static/media/Be-Aware-of-Scams.pdf": "/static/media/Be-Aware-of-Scams.1dda0ebbf7ee97c8e31e.pdf",
+    "static/media/alterna.jpg": "/static/media/alterna.91f98c74015625e64d19.jpg",
+    "static/media/Tips-for-Renting-in-Ontario.pdf": "/static/media/Tips-for-Renting-in-Ontario.37afdee914b3ed4d4b14.pdf",
+    "static/media/ilona.jpeg": "/static/media/ilona.359dece6347893d3b5a1.jpeg",
+    "static/media/bmo.jpg": "/static/media/bmo.9d1f4af6cfd5735f3db9.jpg",
+    "static/media/about.webp": "/static/media/about.22f0f6ac19b3c2f6a0e8.webp",
+    "static/media/campus.png": "/static/media/campus.56edda7d87493391531a.png",
+    "static/media/BMO-Logo.png": "/static/media/BMO-Logo.8a0afc1d24aab5930d17.png",
+    "static/media/logoAlterna.jpg": "/static/media/logoAlterna.aec615b92a7b2bdc9b93.jpg",
+    "static/media/rbc.jpg": "/static/media/rbc.ce490a0218fe2e032b37.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.5bad62ee.css.map": "/static/css/main.5bad62ee.css.map",
+    "main.d138a8e9.js.map": "/static/js/main.d138a8e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bad62ee.css",
+    "static/js/main.d138a8e9.js"
+  ]
+}
