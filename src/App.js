@@ -16,6 +16,12 @@ import ReactGA from 'react-ga';
 
 function App() {
   ReactGA.initialize('G-859KTQ2VXH');
+  ReactGA.send({
+    hitType: 'pageview',
+    page: '/',
+    title: 'Home'
+  });
+
 
 
   return (
