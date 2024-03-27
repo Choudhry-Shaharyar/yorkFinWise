@@ -411,7 +411,7 @@ export const testimonal = [
     id: 1,
     name: "Ajaypal Athwal",
     post: "BENG MECHANICAL",
-    desc: "YorkU Finwise is a great all in one resource hub. Has easy access to on campus jobs!",
+    desc: "York Finwise is a great all in one resource hub. Has easy access to on campus jobs!",
     cover: "./images/testo/person-1.jpg",
   },
   {
@@ -423,9 +423,9 @@ export const testimonal = [
   },
   {
     id: 3,
-    name: "Tehreem Q",
-    post: "BSC KINESIOLOGY",
-    desc: "I really got to learn more about the amazing support groups York has to offer.",
+    name: "Sara Azim",
+    post: "BENG SPACE",
+    desc: "The website has so a lot of information on saving money and introduced me to the YFS student discounts.",
     cover: "./images/testo/testimonal4.jpg",
   },
 ]
