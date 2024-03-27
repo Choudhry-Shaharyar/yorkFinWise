@@ -9,9 +9,15 @@ import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 import JobsPage from "./components/Jobs/JobsPage"
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 
 function App() {
+  ReactGA.initialize('G-859KTQ2VXH');
+
+
   return (
     <>
       <Router>
