@@ -11,23 +11,15 @@ import Home from "./components/home/Home"
 import JobsPage from "./components/Jobs/JobsPage"
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 
 function App() {
   ReactGA.initialize('G-859KTQ2VXH');
-
-  useEffect(()=> {
-    ReactGA.send({
-      hitType: 'pageview',
-      page: '/',
-      title: 'Home'
-    });
-  }, []);
-
-  useEffect(()=> {
-    ReactGA.pageview(window.location.pathname);
-    }, []);
+  ReactGA.send({
+    hitType: "pageview",
+    page: window.location.pathname,
+  });
 
 
 
