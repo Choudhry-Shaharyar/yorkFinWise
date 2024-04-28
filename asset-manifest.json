@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.37f4eb5a.css",
-    "main.js": "/static/js/main.bf01c129.js",
+    "main.js": "/static/js/main.62280ec2.js",
     "static/media/broll.gif": "/static/media/broll.824b0f8e4664e8724895.gif",
     "static/media/saving_money3.jpg": "/static/media/saving_money3.8eb41bc6954bb463dede.jpg",
     "static/media/Living-in-Canada-What-to-Expect.pdf": "/static/media/Living-in-Canada-What-to-Expect.d07a19e5404d57bc3691.pdf",
@@ -29,10 +29,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.37f4eb5a.css.map": "/static/css/main.37f4eb5a.css.map",
-    "main.bf01c129.js.map": "/static/js/main.bf01c129.js.map"
+    "main.62280ec2.js.map": "/static/js/main.62280ec2.js.map"
   },
   "entrypoints": [
     "static/css/main.37f4eb5a.css",
-    "static/js/main.bf01c129.js"
+    "static/js/main.62280ec2.js"
   ]
 }
