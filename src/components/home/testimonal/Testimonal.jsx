@@ -27,8 +27,13 @@ const Testimonal = () => {
               </div>
             ))}
           </div>
+          
         </div>
+        
       </section>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7823976092373413"
+     crossorigin="anonymous"></script>
+
     </>
   )
 }

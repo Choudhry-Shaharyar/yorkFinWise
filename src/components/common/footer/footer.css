@@ -40,7 +40,8 @@ footer .container {
 }
 @media screen and (max-width: 768px) {
   footer .container {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 footer .logo span {

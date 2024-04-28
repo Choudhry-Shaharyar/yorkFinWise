@@ -3,7 +3,7 @@ export const homeAbout = [
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
     title: "Interactive Videos and Workshops",
-    desc: "Far far away, behind the word mountains, there lies a way to learn that just feels right.",
+    desc: "Learn about the basics of finances through our financial learning series! Learn using interactive H5P videos",
     page: "/learn",
   },
   {

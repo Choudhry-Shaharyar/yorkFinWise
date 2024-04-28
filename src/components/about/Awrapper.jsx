@@ -16,7 +16,9 @@ const Awrapper = () => {
                 <div className='text'>
                   <h1>{<CountUp end={parseInt(val.data.replace(/,/g, ''), 10)} duration={20} />}</h1>
                   <h3>{val.title}</h3>
+
                 </div>
+
               </div>
             )
           })}

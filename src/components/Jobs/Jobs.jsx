@@ -44,7 +44,7 @@ const Jobs = () => {
     },
     {
       title: 'Liberal Arts & Professional Studies International Student Entrance Scholarship',
-      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=3861',
+      link: 'https://sfs.yorku.ca/scholarships/award-search?awardID=3861',
       description: 'For Liberal Arts & Professional Studies applicants\nNo award application required',
       amount: '$2,000'
     },
@@ -68,13 +68,13 @@ const Jobs = () => {
     },
     {
       title: 'Faculty of Science Entrance Scholarship',
-      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=3941',
+      link: 'https://sfs.yorku.ca/scholarships/award-search?awardID=3941',
       description: 'For Faculty of Science applicants\nNo award application required',
       amount: '$2,000'
     },
     {
       title: 'York Science Scholars Award',
-      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=4429',
+      link: 'https://sfs.yorku.ca/scholarships/award-search?awardID=4429',
       description: 'For Faculty of Science applicants and requires an application\n$5,000 as an entrance scholarship + $5,000 as a guaranteed summer research position following the first year of study\nApplication Deadline: TBD\nFor more information - York Science Scholars Award (YSSA)',
       amount: '$10,000'
     },
@@ -86,13 +86,13 @@ const Jobs = () => {
     },
     {
       title: 'York University Talent Entrance Scholarships',
-      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=0066',
+      link: 'https://sfs.yorku.ca/scholarships/award-search?awardID=0066',
       description: 'For applicants to programs in the School of the Arts, Media, Performance & Design (AMPD)\nNo award application required',
       amount: '$1,000'
     },
     {
       title: 'Lassonde Entrance Scholarships',
-      link: 'http://sfs.yorku.ca/scholarships/award-search?awardID=3940',
+      link: 'https://sfs.yorku.ca/scholarships/award-search?awardID=3940',
       description: 'For Lassonde school of Engineering applicants\nNo award application required',
       amount: '$2,000'
     }

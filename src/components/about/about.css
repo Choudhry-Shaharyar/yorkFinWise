@@ -73,16 +73,29 @@
     flex-direction: column-reverse;
   }
   .aboutHome .row {
-    width: 100%;
+    width: 50%;
   }
   .awrapper {
     height: 50vh;
   }
+  .awrapper .img {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 1300px) {
 
   .awrapper {
     height: 40vh;
+    
+    
+  }
+}
+
+/* Media query for phones */
+@media screen and (max-width: 480px) {
+  .awrapper {
+    display: none;
   }
 }
