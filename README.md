@@ -2,8 +2,7 @@
 
 Welcome to the YorkU Financial Wise repository, where we focus on developing tools and resources to enhance financial literacy and management for York University students and the broader community.
 
-<!-- Standard quality -->
-[![Demo Video](https://img.youtube.com/vi/vxgXcGk-6Qc/sddefault.jpg)](https://youtu.be/vxgXcGk-6Qc)
+[Watch Demo Video (YouTube)](https://youtu.be/vxgXcGk-6Qc)
 ## About
 
 This project aims to provide users with intuitive tools to manage their financials effectively, offering insights into budgeting, saving, and smart spending specifically tailored for students at York University.
