@@ -409,20 +409,13 @@ export const blog = [
 export const testimonal = [
   {
     id: 1,
-    name: "Ajaypal Athwal",
-    post: "BENG MECHANICAL",
-    desc: "York Finwise is a great all in one resource hub. Has easy access to on campus jobs!",
-    cover: "./images/testo/person-1.jpg",
-  },
-  {
-    id: 2,
     name: "Aadi Gautam",
     post: "BENG COMPUTER",
     desc: "The learning videos were helpful! I took advantage of the workshop calendar with RBC and got to learn more!",
     cover: "./images/testo/person-2.jpg",
   },
   {
-    id: 3,
+    id: 2,
     name: "Sara Azim",
     post: "BENG SPACE",
     desc: "The website has so a lot of information on saving money and introduced me to the YFS student discounts.",
